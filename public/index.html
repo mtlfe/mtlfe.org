@@ -4,12 +4,66 @@
         <meta charset="utf-8" />
         <title>mtlfe.org</title>
 		<link rel="stylesheet" href="http://mtlfe-cdn.appspot.com/css/reset/html5doctor.css" type="text/css" media="screen" charset="utf-8" />
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <!--[if IE]>
                 <script src="http://mtlfe-cdn.appspot.com/javascript/shivs/html5.js"></script>
         <![endif]-->
 		<script src="http://mtlfe-cdn.appspot.com/javascript/shivs/es5.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css" media="screen">
+			html{width:100%;height:98%;}
+			body{
+				font-family:'Ubuntu Mono', sans-serif;font-size:20px;
+				height:98%;
+				width:98%;
+				min-width:760px;
+				margin-left:1%;
+				background:#fcfcfc;
+				line-height:1.25em;
+				color:#444;
+			}
+			h1,h2,h3,h4{color:#06c;}
+			a{color:#039;text-decoration:none;border-bottom:1px dashed #f0f0f0;}
+			a:hover{color:#06c;text-decoration:none;border-bottom:1px solid #06c;}			
+			#org, #intro, #links, #copy{
+				display:block;float:left;width:100%;
+			}
+			#org{height:10%;}
+			#copy{height:5%;font-size:0.5em;text-align:center;line-height:1em;opacity:0.4;}
+			#intro, #links{height:85%;overflow-y:auto}
+			#intro{width:80%;
+				-webkit-box-shadow:0 0 6px rgba(0,0,0,0.3);
+				-webkit-border-radius:.25em;
+				background:#fff;
+				}
+			#links{width:20%;float:right;}
+			#org > *, #intro > *, #links > *, #copy > *{
+				margin:0.5em;
+			}
+			#links li{list-style-type:none;}
+			
+		</style>
 </head>
 <body>
+	<header id="org">
+		<h1>MTLFE.org</h1>
+	</header>
+	<menu id="links">
+		<li><a href="#">link a</a></li>
+		<li><a href="#">link b</a></li>
+		<li><a href="#">link c</a></li>
+		<li><a href="#">link d</a></li>
+	</menu>
+	
+	<section id="intro">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <a href="#">anim id</a> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit  est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+	</section>
+	<footer id="copy">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+	</footer>
 </body>
 </html>
